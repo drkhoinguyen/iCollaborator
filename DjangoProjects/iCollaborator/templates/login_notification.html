@@ -1,0 +1,61 @@
+{% extends "login_homepage.html" %}
+{% block title %}
+    <title>Notification Page</title>
+{% endblock title %}
+
+{% block header %}
+    {{ block.super }}
+    <style type="text/css">
+        .content1 {
+            min-width: 400px;
+        }
+    </style>
+{% endblock header %}
+
+{% block navigator %}
+    <li><a href="/login_notification">Notification</a></li>
+    <li>&gt</li>
+{% endblock navigator %}
+
+{% block body %}
+    <h3>Notification:</h3>
+    <h5><a href="new_notification">Add new notification</a></h5>
+    <h4>List of recently notifications:</h4>
+
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th class="content1">Content</th>
+            <th>Time</th>
+            <th>Course</th>
+        </tr>
+        {% for notification in notifications %}
+            <tr>
+
+                <td><a href="{{ notification.id }}">{{ notification.id }}</a></td>
+                <td class="content1">{{ notification.content|truncatechars:40 }}</td>
+                <td>{{ notification.time }}</td>
+                <td>{{ notification.course }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+
+    <div class="pagination">
+
+            <span class="step-links">
+            {% if notifications.has_previous %}
+                <a href="?page={{ notifications.previous_page_number }}">prev</a>
+            {% endif %}
+
+                <span class="current">
+            Page {{ notifications.number }} of {{ notifications.paginator.num_pages }}.
+                </span>
+
+                {% if notifications.has_next %}
+                    <a href="?page={{ notifications.next_page_number }}">next</a>
+                {% endif %}
+            </span>
+    </div>
+
+
+{% endblock body %}

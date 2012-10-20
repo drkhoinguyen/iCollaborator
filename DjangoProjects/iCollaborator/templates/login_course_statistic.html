@@ -1,0 +1,48 @@
+{% extends "login_course.html" %}
+{% block title %}
+    <title>Course Statistic Page</title>
+{% endblock title %}
+
+{% block header %}
+    {{ block.super }}
+    <style type="text/css">
+        ol{
+            margin-left: 20px;
+            font-size: 14px;
+        }
+
+    </style>
+{% endblock header %}
+
+{% block navigator %}
+    <li><a href="/login_course">Course({{ course_id }})</a></li>
+    <li>&gt</li>
+    <li><a href="/login_course/{{ course_id }}/show_statistic">Course Statistic</a></li>
+    <li>&gt</li>
+{% endblock navigator %}
+
+{% block body %}
+    <h3>Course Statistic:</h3>
+
+    <h4>Top 10 students miss:</h4>
+    <ol>
+        {% for student in top_student_miss %}
+            <li>{{ student }}</li>
+        {% endfor %}
+    </ol>
+
+    <h4>Top 10 sessions student miss:</h4>
+    <ol>
+        {% for session in top_session_student_miss %}
+            <li>{{ session }}</li>
+        {% endfor %}
+    </ol>
+
+    <h4>Students miss over 3 session:</h4>
+    <ol>
+        {% for student in student_miss_overs %}
+            <li>{{ student }}</li>
+        {% endfor %}
+    </ol>
+
+{% endblock body %}

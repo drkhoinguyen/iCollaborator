@@ -1,0 +1,99 @@
+{% extends "login_session.html" %}
+{% block title %}
+    <title>Question Page</title>
+{% endblock title %}
+
+{% block header %}
+    {{ block.super }}
+    <style type="text/css">
+        .title {
+            min-width: 300px;
+        }
+        .checkbox{
+            text-align: center;
+        }
+        #delete_submit{
+            float: right;
+            margin-right: 15px;
+        }
+        #delete_text{
+            float: right;
+            padding-right: 10px;
+        }
+        .id{
+
+        }
+        .time{
+
+        }
+        .session{
+
+        }
+        .more{
+
+        }
+        .delete{
+
+        }
+    </style>
+{% endblock header %}
+
+{% block navigator %}
+    <li><a href="/login_course">Course({{ course_id }})</a></li>
+    <li>&gt</li>
+    <li><a href="/login_course/{{ course_id }}/session/{{ session_id }}">Session({{ session_id }})</a></li>
+    <li>&gt</li>
+    <li><a href="/login_course/{{ course_id }}/session/{{ session_id }}/question">Question</a></li>
+    <li>&gt</li>
+{% endblock navigator %}
+
+{% block body %}
+    <h3>Question:</h3>
+    <h5><a href="new_question">Add new question</a></h5>
+    <h4>List of questions of this session:</h4>
+
+    <table border="1">
+        <tr>
+            <th class="id">ID</th>
+            <th class="title">Question</th>
+            <th class="time">Time</th>
+            <th class="session">Session</th>
+            <th class="more">Show Stat</th>
+            <th class="delete">Delete</th>
+        </tr>
+        <form action="delete_question" id="delete_form">
+        {% for question in questions %}
+            <tr>
+                <td class="id"><a href="{{ question.id }}/edit_question">{{ question.id }}</a></td>
+                <td class="title" >{{ question.question|truncatechars:50 }}</td>
+                <td class="time">{{ question.time }}</td>
+                <td class="session">{{ question.session }}</td>
+                <td class="more"><a href="{{ question.id }}/show_statistic">View stat</a></td>
+                <td class="checkbox"><input type="checkbox" name="choose_question" value="{{ question.id }}" ></td>
+            </tr>
+        {% endfor %}
+        </form>
+    </table>
+
+
+    <div class="pagination">
+
+            <span class="step-links">
+                {% if questions.has_previous %}
+                    <a href="?page={{ questions.previous_page_number }}">prev</a>
+                {% endif %}
+
+                <span class="current">
+            Page {{ questions.number }} of {{ questions.paginator.num_pages }}.
+                </span>
+
+                {% if questions.has_next %}
+                    <a href="?page={{ questions.next_page_number }}">next</a>
+                {% endif %}
+            </span>
+    </div>
+
+    <button id="delete_submit" type="submit" form="delete_form" value="submit_delete">Submit</button>
+    <a id="delete_text">Delete Checked Questions:</a>
+
+{% endblock body %}

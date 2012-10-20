@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}
+    <title>Home Page</title>
+{% endblock title %}
+
+{% block sidebar %}
+    {{ block.super }}
+    <li><a href="/homepage">Home</a></li>
+    <li><a href="/aboutus">About Us</a></li>
+    <li><a href="/login">Login</a></li>
+    <li><a href="/signup">Sign Up</a></li>
+{% endblock sidebar %}
+
+{% block body %}
+    <h3>Page not found. Please go back to homepage</h3>
+{% endblock body %}

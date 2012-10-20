@@ -1,0 +1,78 @@
+{% extends "login_course.html" %}
+{% block title %}
+    <title>Session Page</title>
+{% endblock title %}
+
+{% block header %}
+    {{ block.super }}
+    <style type="text/css">
+        .title {
+            min-width: 280px;
+        }
+        .time{
+
+        }
+        .course{
+
+        }
+        .id{
+
+        }
+        .more{
+
+        }
+    </style>
+{% endblock header %}
+
+{% block navigator %}
+    <li><a href="/login_course">Course({{ course_id }})</a></li>
+    <li>&gt</li>
+    <li><a href="/login_course/{{ course_id }}/session">Session</a></li>
+    <li>&gt</li>
+{% endblock navigator %}
+
+{% block body %}
+    <h3>Session:</h3>
+    <h5><a href="new_session">Add new session</a></h5>
+    <h4>List of sessions of this course:</h4>
+
+    <table border="1">
+        <tr>
+            <th class="id">ID</th>
+            <th class="title">Title</th>
+            <th class="time">Time</th>
+            <th class="course">Course</th>
+            <th class="more">More</th>
+        </tr>
+        {% for session in sessions %}
+            <tr>
+                <td class="id"><a href="{{ session.id }}/question">{{ session.id }}</a></td>
+                <td class="title">{{ session.title|truncatechars:40 }}</td>
+                <td class="time">{{ session.time }}</td>
+                <td class="course">{{ session.course }}</td>
+                <td class="more"><a href="{{ session.id }}/edit_session">Edit</a>
+                    <a href="{{ session.id }}/show_statistic">View stat</a>
+                </td>
+            </tr>
+        {% endfor %}
+    </table>
+
+    <div class="pagination">
+
+            <span class="step-links">
+            {% if sessions.has_previous %}
+                <a href="?page={{ sessions.previous_page_number }}">prev</a>
+            {% endif %}
+
+                <span class="current">
+            Page {{ sessions.number }} of {{ sessions.paginator.num_pages }}.
+                </span>
+
+                {% if sessions.has_next %}
+                    <a href="?page={{ sessions.next_page_number }}">next</a>
+                {% endif %}
+            </span>
+    </div>
+
+
+{% endblock body %}

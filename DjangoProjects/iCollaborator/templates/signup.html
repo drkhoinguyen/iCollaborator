@@ -1,0 +1,17 @@
+{% extends "homepage.html" %}
+{% block title %}
+    <title>Sign Up Page</title>
+{% endblock title %}
+
+{% block navigator %}
+    <li><a href="/signup">Sign Up</a></li>
+    <li>&gt</li>
+{% endblock navigator %}
+
+{% block body %}
+    <h3>Create new Account (For Supervisor Only):</h3>
+    <form action="signup" method="post">{% csrf_token %}
+        {{ createuser_form.as_p }}
+        <input type="submit" value="Submit" />
+    </form>
+{% endblock body %}

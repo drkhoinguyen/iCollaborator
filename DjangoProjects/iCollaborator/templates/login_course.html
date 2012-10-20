@@ -1,0 +1,73 @@
+{% extends "login_homepage.html" %}
+{% block title %}
+    <title>Course Page</title>
+{% endblock title %}
+
+{% block header %}
+    {{ block.super }}
+    <style type="text/css">
+        .description {
+            min-width: 200px;
+        }
+        .name{
+            min-width: 100px;
+        }
+        .date{
+            min-width: 100px;
+        }
+        .more{
+            min-width: 100px;
+        }
+    </style>
+{% endblock header %}
+
+{% block navigator %}
+    <li><a href="/login_course">Course</a></li>
+    <li>&gt</li>
+{% endblock navigator %}
+
+{% block body %}
+    <h3>Course:</h3>
+
+    <h4>List of your instructing course:</h4>
+
+    <table border="1">
+        <tr>
+            <th class="id">ID</th>
+            <th class="name">Name</th>
+            <th class="description">Description</th>
+            <th class="date">Date Begin</th>
+            <th class="more">More</th>
+        </tr>
+        {% for course in courses %}
+            <tr>
+                <td class="id"><a href="{{ course.ID }}/session">{{ course.ID }}</a></td>
+                <td class="name">{{ course.name }}</td>
+                <td class="description">{{ course.description|truncatechars:30 }}</td>
+                <td class="date">{{ course.time }}</td>
+                <td class="more"><a href="{{ course.ID }}/edit_course">Edit</a>
+                    <a href="{{ course.ID }}/show_statistic">View stat</a>
+                </td>
+            </tr>
+        {% endfor %}
+    </table>
+
+    <div class="pagination">
+
+            <span class="step-links">
+            {% if courses.has_previous %}
+                <a href="?page={{ courses.previous_page_number }}">prev</a>
+            {% endif %}
+
+                <span class="current">
+            Page {{ courses.number }} of {{ courses.paginator.num_pages }}.
+                </span>
+
+                {% if courses.has_next %}
+                    <a href="?page={{ courses.next_page_number }}">next</a>
+                {% endif %}
+            </span>
+    </div>
+
+
+{% endblock body %}

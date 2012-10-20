@@ -1,0 +1,17 @@
+{% extends "homepage.html" %}
+{% block title %}
+    <title>Login Page</title>
+{% endblock title %}
+
+{% block navigator %}
+    <li><a href="/Login">Login</a></li>
+    <li>&gt</li>
+{% endblock navigator %}
+
+{% block body %}
+    <h3>Login:</h3>
+    <form action="" method="post">{% csrf_token %}
+        {{ authen_form.as_p }}
+        <input type="submit" value="Submit" />
+    </form>
+{% endblock body %}

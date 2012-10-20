@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}
+    <title>Home Page</title>
+{% endblock title %}
+
+{% block sidebar %}
+    {{ block.super }}
+    <li><a href="/homepage">Home</a></li>
+    <li><a href="/aboutus">About Us</a></li>
+    <li><a href="/login">Login</a></li>
+    <li><a href="/signup">Sign Up</a></li>
+{% endblock sidebar %}
+
+{% block navigator %}
+    {{ block.super }}
+    <li><a href="/homepage">Home</a></li>
+    <li>&gt</li>
+{% endblock navigator %}
+
+{% block body %}
+    <p>This web-based application is a project aimed for Course "CSCI587 Geospatial Information Management" @ USC</p>
+    <p>We have created many useful functions for supporting a class's activities. These functions are:</p>
+    <ul>
+        <li>Login and Logout functions for Supervisor</li>
+        <li>Creating new, editing schedules, notification</li>
+        <li>Checking student attendance report for current session and semester </li>
+        <li>Displaying the summary of each class sessions (question raise)</li>
+    </ul>
+{% endblock body %}

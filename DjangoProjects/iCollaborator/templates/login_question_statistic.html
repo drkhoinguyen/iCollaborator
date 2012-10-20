@@ -1,0 +1,55 @@
+{% extends "login_question.html" %}
+{% block title %}
+    <title>Question Statistic Page</title>
+{% endblock title %}
+
+{% block header %}
+    {{ block.super }}
+    <style type="text/css">
+        .choice{
+            padding-left: 0px;
+        }
+    </style>
+{% endblock header %}
+
+{% block navigator %}
+    <li><a href="/login_course">Course({{ course_id }})</a></li>
+    <li>&gt</li>
+    <li><a href="/login_course/{{ course_id }}/session/{{ session_id }}">Session({{ session_id }})</a></li>
+    <li>&gt</li>
+    <li><a href="/login_course/{{ course_id }}/session/{{ session_id }}/question/">Question({{ question_id }})</a></li>
+    <li>&gt</li>
+    <li><a href="/login_course/{{ course_id }}/session/{{ session_id }}/question/{{ question_id }}/show_statistic">Question Statistic</a></li>
+    <li>&gt</li>
+{% endblock navigator %}
+
+{% block body %}
+    <h3>Question Statistic:</h3>
+
+    <h5>Question: {{question}}</h5>
+    <h5>Right answer: {{ question.right_answer }}</h5>
+    <h5>Number of students answer: {{ total_answer }}</h5>
+
+    <h5>
+        <p class="choice">Choice 1: {{ question.answer1 }}</p>
+        <p>Number of Student choose: {{ question.result1 }}</p>
+        <p>Percentage: {{ percentage1 }}%</p>
+    </h5>
+    <h5>
+        <p class="choice">Choice 2: {{ question.answer2 }}</p>
+        <p>Number of Student choose: {{ question.result2 }}</p>
+        <p>Percentage: {{ percentage2 }}%</p>
+    </h5>
+    <h5>
+        <p class="choice">Choice 3: {{ question.answer3 }}</p>
+        <p>Number of Student choose: {{ question.result3 }}</p>
+        <p>Percentage: {{ percentage3 }}%</p>
+    </h5>
+    <h5>
+        <p class="choice">Choice 4: {{ question.answer4 }}</p>
+        <p>Number of Student choose: {{ question.result4 }}</p>
+        <p>Percentage: {{ percentage4 }}%</p>
+    </h5>
+
+
+{% endblock body %}

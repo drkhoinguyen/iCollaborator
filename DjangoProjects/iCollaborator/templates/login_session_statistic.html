@@ -1,0 +1,46 @@
+{% extends "login_session.html" %}
+{% block title %}
+    <title>Session Statistic Page</title>
+{% endblock title %}
+
+{% block header %}
+    {{ block.super }}
+    <style type="text/css">
+        ol{
+            margin-left: 20px;
+            font-size: 14px;
+        }
+    </style>
+{% endblock header %}
+
+{% block navigator %}
+    <li><a href="/login_course">Course({{ course_id }})</a></li>
+    <li>&gt</li>
+    <li><a href="/login_course/{{ course_id }}/session">Session({{ session_id }})</a></li>
+    <li>&gt</li>
+    <li><a href="/login_course/{{ course_id }}/session/{{ session_id }}/edit_session">Session Statistic</a></li>
+    <li>&gt</li>
+{% endblock navigator %}
+
+{% block body %}
+    <h3>Session Statistic:</h3>
+
+    <h5>Date: {{ date }}</h5>
+    <h5>Number of student attends: {{ num_student_attend }}</h5>
+
+    <h5>Top 3 tough questions:</h5>
+    <ol>
+        {% for question in top_tough_question %}
+            <li>{{ question }}</li>
+        {% endfor %}
+    </ol>
+
+    <h5>Top 3 easy questions:</h5>
+    <ol>
+        {% for question in top_easy_question %}
+            <li>{{ question }}</li>
+        {% endfor %}
+    </ol>
+
+    <h5>Average Percentage right answer: {{ avg_percent_right_answer }}</h5>
+{% endblock body %}

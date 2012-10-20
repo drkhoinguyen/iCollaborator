@@ -1,0 +1,17 @@
+{% extends "login_homepage.html" %}
+{% block title %}
+    <title>Edit Account Page</title>
+{% endblock title %}
+
+{% block navigator %}
+    <li><a href="/login_editaccount">Edit Account</a></li>
+    <li>&gt</li>
+{% endblock navigator %}
+
+{% block body %}
+    <h3>Edit Your Account:</h3>
+    <form action="login_editaccount" method="post">{% csrf_token %}
+        {{ passchange_form.as_p }}
+        <input type="submit" value="Submit" />
+    </form>
+{% endblock body %}

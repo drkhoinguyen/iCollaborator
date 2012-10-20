@@ -1,0 +1,18 @@
+{% extends "login_notification.html" %}
+{% block title %}
+    <title>Add Notification Page</title>
+{% endblock title %}
+
+{% block navigator %}
+    {{ block.super }}
+    <li><a href="/login_notification/new_notificaiton/">New Notification</a></li>
+    <li>&gt</li>
+{% endblock navigator %}
+
+{% block body %}
+    <h3>Add Notification:</h3>
+    <form action="" method="post">{% csrf_token %}
+        {{ new_notification_form.as_p }}
+        <input type="submit" value="Submit" />
+    </form>
+{% endblock body %}

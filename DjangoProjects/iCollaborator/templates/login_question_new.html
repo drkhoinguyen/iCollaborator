@@ -1,0 +1,23 @@
+{% extends "login_question.html" %}
+{% block title %}
+    <title>New Question Page</title>
+{% endblock title %}
+
+{% block navigator %}
+    <li><a href="/login_course">Course({{ course_id }})</a></li>
+    <li>&gt</li>
+    <li><a href="/login_course/{{ course_id }}/session/{{ session_id }}">Session({{ session_id }})</a></li>
+    <li>&gt</li>
+    <li><a href="/login_course/{{ course_id }}/session/{{ session_id }}/question">Question</a></li>
+    <li>&gt</li>
+    <li><a href="/login_course/{{ course_id }}/session/{{ session_id }}/question/new_question">New Question</a></li>
+    <li>&gt</li>
+{% endblock navigator %}
+
+{% block body %}
+    <h3>Add Question:</h3>
+    <form action="" method="post">{% csrf_token %}
+        {{ add_question_form.as_p }}
+        <input type="submit" value="Add" />
+    </form>
+{% endblock body %}
