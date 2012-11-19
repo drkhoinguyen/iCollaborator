@@ -18,12 +18,16 @@
     <li>&gt</li>
     <li><a href="/login_course/{{ course_id }}/session">Session({{ session_id }})</a></li>
     <li>&gt</li>
-    <li><a href="/login_course/{{ course_id }}/session/{{ session_id }}/edit_session">Session Statistic</a></li>
+    <li><a href="/login_course/{{ course_id }}/session/{{ session_id }}/show_statistic">Session Statistic</a></li>
     <li>&gt</li>
 {% endblock navigator %}
 
 {% block body %}
     <h3>Session Statistic:</h3>
+
+    {% if error %}
+        <p class="error">{{ error }}</p>
+    {% else %}
 
     <h5>Date: {{ date }}</h5>
     <h5>Number of student attends: {{ num_student_attend }}</h5>
@@ -43,4 +47,6 @@
     </ol>
 
     <h5>Average Percentage right answer: {{ avg_percent_right_answer }}</h5>
+    {% endif %}
+
 {% endblock body %}

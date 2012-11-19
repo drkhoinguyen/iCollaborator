@@ -1,0 +1,32 @@
+{% extends "login_question.html" %}
+{% block title %}
+    <title>Edit Question Page</title>
+{% endblock title %}
+
+{% block header %}
+    {{ block.super }}
+
+{% endblock header %}
+
+{% block navigator %}
+    <li><a href="/login_course">Course({{ course_id }})</a></li>
+    <li>&gt</li>
+    <li><a href="/login_course/{{ course_id }}/session/{{ session_id }}">Session({{ session_id }})</a></li>
+    <li>&gt</li>
+    <li><a href="/login_course/{{ course_id }}/session/{{ session_id }}/question/">Question({{ question_id }})</a></li>
+    <li>&gt</li>
+    <li><a href="/login_course/{{ course_id }}/session/{{ session_id }}/question/{{ question_id }}/edit_question">Edit Question</a></li>
+    <li>&gt</li>
+{% endblock navigator %}
+
+{% block body %}
+    <h3>Edit Question:</h3>
+    {% if error %}
+        <p class="error">{{ error }}</p>
+    {% endif %}
+
+    <form action="" method="post">{% csrf_token %}
+        {{ edit_question_form.as_p }}
+        <input type="submit" value="Submit" />
+    </form>
+{% endblock body %}

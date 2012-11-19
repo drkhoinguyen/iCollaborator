@@ -22,6 +22,10 @@
     <h5><a href="new_notification">Add new notification</a></h5>
     <h4>List of recently notifications:</h4>
 
+    {% if error  %}
+        <p class="error">{{ error }}</p>
+    {% endif %}
+
     <table border="1">
         <tr>
             <th>ID</th>
@@ -31,8 +35,7 @@
         </tr>
         {% for notification in notifications %}
             <tr>
-
-                <td><a href="{{ notification.id }}">{{ notification.id }}</a></td>
+                <td><a href="{{ notification.id }}">{{ notification.id}}</a></td>
                 <td class="content1">{{ notification.content|truncatechars:40 }}</td>
                 <td>{{ notification.time }}</td>
                 <td>{{ notification.course }}</td>

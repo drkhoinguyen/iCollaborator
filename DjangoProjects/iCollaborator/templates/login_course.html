@@ -41,12 +41,13 @@
         </tr>
         {% for course in courses %}
             <tr>
-                <td class="id"><a href="{{ course.ID }}/session">{{ course.ID }}</a></td>
+                <td class="id"><a>{{ course.ID }}</a></td>
                 <td class="name">{{ course.name }}</td>
                 <td class="description">{{ course.description|truncatechars:30 }}</td>
                 <td class="date">{{ course.time }}</td>
                 <td class="more"><a href="{{ course.ID }}/edit_course">Edit</a>
                     <a href="{{ course.ID }}/show_statistic">View stat</a>
+                    <a href="{{ course.ID }}/session">Show sessions</a>
                 </td>
             </tr>
         {% endfor %}

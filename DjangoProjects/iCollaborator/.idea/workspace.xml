@@ -1,14 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2cbb792c-c75a-4997-a994-4db3bfb1e99a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/admin.py" />
+    <list id="2cbb792c-c75a-4997-a994-4db3bfb1e99a" name="Default" comment="Complete normalhompage.html">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../AndroidProjects/.classpath" afterPath="$PROJECT_DIR$/../../AndroidProjects/.classpath" />
+      <change type="MOVED" beforePath="D:\Windows 7 Files\Windows 7\Desktop\GIS\Projects\iCollaborator\DjangoProjects\iCollaborator\main\Form.py" afterPath="$PROJECT_DIR$/main/form.py" />
+    </list>
+    <list id="d00f31dc-fdc0-4348-a33b-0ef421e8747b" name="Rejected commit: Default" comment="Complete normalhompage.html" />
+    <list id="8a7e7317-57bb-402b-9115-b3095219ea65" name="Failed commit: Default" comment="Complete main functions, EXCEPT Check in">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TestPyCrypto/.idea/TestPyCrypto.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../iCollaboratorLocal/.idea/iCollaboratorLocal.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../iCollaboratorLocal/static/images/iCollaborator_logo.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../iCollaboratorLocal/static/images/iCollaborator_logo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TestPyCrypto/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TestPyCrypto/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TestPyCrypto/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TestPyCrypto/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TestPyCrypto/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TestPyCrypto/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TestPyCrypto/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TestPyCrypto/main.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../iCollaboratorLocal/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../iCollaboratorLocal/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../iCollaboratorLocal/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../iCollaboratorLocal/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../iCollaboratorLocal/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../iCollaboratorLocal/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../iCollaboratorLocal/iCollaboratorLocal/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../iCollaboratorLocal/iCollaboratorLocal/settings.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../iCollaboratorLocal/iCollaboratorLocal/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../iCollaboratorLocal/iCollaboratorLocal/wsgi.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../iCollaboratorLocal/main/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../iCollaboratorLocal/main/admin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../iCollaboratorLocal/main/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../iCollaboratorLocal/main/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../iCollaboratorLocal/main/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../iCollaboratorLocal/manage.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../iCollaboratorLocal/static/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/DUCMINHKHOI.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/login_success.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/iCollaborator.iml" afterPath="$PROJECT_DIR$/.idea/iCollaborator.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iCollaboratorLocal/templates/base.html" afterPath="$PROJECT_DIR$/../iCollaboratorLocal/templates/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iCollaborator/settings.py" afterPath="$PROJECT_DIR$/iCollaborator/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iCollaborator/urls.py" afterPath="$PROJECT_DIR$/iCollaborator/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/login.html" afterPath="$PROJECT_DIR$/templates/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/login_course_edit.html" afterPath="$PROJECT_DIR$/templates/login_course_edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/login_course_statistic.html" afterPath="$PROJECT_DIR$/templates/login_course_statistic.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/login_editaccount.html" afterPath="$PROJECT_DIR$/templates/login_editaccount.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/login_notification.html" afterPath="$PROJECT_DIR$/templates/login_notification.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/login_notification_edit.html" afterPath="$PROJECT_DIR$/templates/login_notification_edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/login_notification_new.html" afterPath="$PROJECT_DIR$/templates/login_notification_new.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/login_question.html" afterPath="$PROJECT_DIR$/templates/login_question.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/login_question_new.html" afterPath="$PROJECT_DIR$/templates/login_question_new.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/login_question_statistic.html" afterPath="$PROJECT_DIR$/templates/login_question_statistic.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/login_session.html" afterPath="$PROJECT_DIR$/templates/login_session.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/login_session_edit.html" afterPath="$PROJECT_DIR$/templates/login_session_edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/login_session_new.html" afterPath="$PROJECT_DIR$/templates/login_session_new.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/login_session_statistic.html" afterPath="$PROJECT_DIR$/templates/login_session_statistic.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/signup.html" afterPath="$PROJECT_DIR$/templates/signup.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/success.html" afterPath="$PROJECT_DIR$/templates/success.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/unsuccess.html" afterPath="$PROJECT_DIR$/templates/unsuccess.html" />
+    </list>
+    <list default="true" id="8d0d8330-4ff7-4c73-8db5-0fa206ea74e9" name="Failed commit: Failed commit: Default" comment="Complete main functions, EXCEPT Check in">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/admin.py" afterPath="$PROJECT_DIR$/main/admin.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/models.py" afterPath="$PROJECT_DIR$/main/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/static/css/style.css" afterPath="$PROJECT_DIR$/main/static/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/views.py" afterPath="$PROJECT_DIR$/main/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/login_course.html" afterPath="$PROJECT_DIR$/templates/login_course.html" />
     </list>
     <ignored path="iCollaborator.iws" />
     <ignored path=".idea/workspace.xml" />
+    <file path="$PROJECT_DIR$/templates/login_session_statistic.html" changelist="8d0d8330-4ff7-4c73-8db5-0fa206ea74e9" time="1353317341793" ignored="true" />
+    <file path="$PROJECT_DIR$/templates/login_session.html" changelist="8d0d8330-4ff7-4c73-8db5-0fa206ea74e9" time="1353317816832" ignored="true" />
+    <file path="$PROJECT_DIR$/../TestPyCrypto/main.py" changelist="8d0d8330-4ff7-4c73-8db5-0fa206ea74e9" time="1353293196473" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="2cbb792c-c75a-4997-a994-4db3bfb1e99a" time="1353265605057" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,27 +87,40 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
+  <component name="DatabaseView">
+    <flatten value="false" />
+    <groupTables value="false" />
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="iCollaborator" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/iCollaborator/settings.py">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="27" selection-start="1668" selection-end="1668" vertical-scroll-proportion="0.0">
+            <state line="516" column="30" selection-start="19633" selection-end="19633" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#26#85#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login_session.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/login_session.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="68" column="0" selection-start="1791" selection-end="1791" vertical-scroll-proportion="-9.375">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main/models.py">
+      <file leaf-file-name="login_course.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/login_course.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="37" selection-start="2770" selection-end="2770" vertical-scroll-proportion="1.2912371">
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
+            <state line="38" column="36" selection-start="838" selection-end="838" vertical-scroll-proportion="0.36144578">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -50,18 +128,63 @@
       <file leaf-file-name="admin.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0">
+            <state line="13" column="0" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#27#76#0" expanded="true" />
+                <element signature="e#0#51#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/iCollaborator/urls.py">
+      <file leaf-file-name="login_notification.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/login_notification.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="9" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0">
+            <state line="33" column="27" selection-start="795" selection-end="795" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login_session_new.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/login_session_new.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="34" selection-start="591" selection-end="607" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/form.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="28" selection-start="874" selection-end="874" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="24" selection-start="959" selection-end="959" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login_question_statistic.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/login_question_statistic.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="8" selection-start="1118" selection-end="1118" vertical-scroll-proportion="2.2083333">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login_session_statistic.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/login_session_statistic.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="40" selection-start="783" selection-end="783" vertical-scroll-proportion="-11.333333">
               <folding />
             </state>
           </provider>
@@ -80,9 +203,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/iCollaborator/settings.py" />
+        <option value="$PROJECT_DIR$/main/static/css/style.css" />
+        <option value="$PROJECT_DIR$/templates/login_session_new.html" />
+        <option value="$PROJECT_DIR$/templates/login_question_edit.html" />
+        <option value="$PROJECT_DIR$/templates/login_question_new.html" />
+        <option value="$PROJECT_DIR$/templates/login_question.html" />
+        <option value="$PROJECT_DIR$/templates/login_notification.html" />
+        <option value="$PROJECT_DIR$/iCollaborator/urls.py" />
         <option value="$PROJECT_DIR$/main/models.py" />
+        <option value="$PROJECT_DIR$/templates/login_question_statistic.html" />
+        <option value="$PROJECT_DIR$/templates/login_course_statistic.html" />
+        <option value="$PROJECT_DIR$/main/form.py" />
         <option value="$PROJECT_DIR$/main/admin.py" />
+        <option value="$PROJECT_DIR$/templates/login_session_statistic.html" />
+        <option value="$PROJECT_DIR$/main/views.py" />
+        <option value="$PROJECT_DIR$/templates/login_session.html" />
+        <option value="$PROJECT_DIR$/templates/login_course.html" />
       </list>
     </option>
   </component>
@@ -106,7 +242,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="All" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -118,6 +254,16 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -126,33 +272,96 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files" />
-        <subPane subId="All">
           <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iCollaborator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="iCollaborator">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iCollaborator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iCollaborator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="iCollaborator">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iCollaborator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="main">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iCollaborator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iCollaborator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iCollaborator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iCollaborator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iCollaborator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iCollaborator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iCollaborator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iCollaborator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iCollaborator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -161,11 +370,30 @@
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="options.lastSelected" value="preferences.fileTypes" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
+  </component>
+  <component name="PublishConfig" serverName="iCollaborator" serverId="bbbd2d49-5690-4000-8a2f-2d4960d421f2">
+    <servers>
+      <server id="bbbd2d49-5690-4000-8a2f-2d4960d421f2">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+    </servers>
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -176,11 +404,64 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="OPEN_URL_DIALOG">
+      <recent name="http://184.106.153.158" />
+      <recent name="http://184.106.153.158:22" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Windows 7 Files\Windows 7\Desktop\GIS\Projects\iCollaborator\DjangoProjects\iCollaborator\main\static\javascript" />
+      <recent name="D:\Windows 7 Files\Windows 7\Desktop\GIS\Projects\iCollaborator\DjangoProjects\iCollaborator\main\static" />
       <recent name="D:\Windows 7 Files\Windows 7\Desktop\GIS\Projects\iCollaborator\DjangoProjects\iCollaborator\main" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Windows 7 Files\Windows 7\Desktop\GIS\Projects\iCollaborator\DjangoProjects\iCollaborator\main" />
+      <recent name="D:\Windows 7 Files\Windows 7\Desktop\GIS\Projects\iCollaborator\DjangoProjects\iCollaborator\templates" />
+      <recent name="D:\Windows 7 Files\Windows 7\Desktop\GIS\Projects\iCollaborator\DjangoProjects\iCollaborator\templates\normal" />
+    </key>
   </component>
-  <component name="RunManager" selected="Django server.iCollaborator">
+  <component name="RunManager" selected="Python.views">
+    <configuration default="false" name="Default" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console" temporary="true">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
+      <method />
+    </configuration>
+    <configuration default="false" name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/main" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <module name="iCollaborator" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="MULTIPROCESS" value="false" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <module name="iCollaborator" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -222,7 +503,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:/Python27/python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <module name="iCollaborator" />
@@ -230,7 +511,7 @@
       <option name="port" value="8000" />
       <option name="host" value="" />
       <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
+      <option name="browserUrl" value="http://127.0.0.1:8000/" />
       <option name="runTestServer" value="false" />
       <option name="runNoReload" value="false" />
       <option name="useCustomRunCommand" value="false" />
@@ -255,13 +536,26 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
+      <method />
+    </configuration>
     <configuration default="false" name="iCollaborator" type="Python.DjangoServer" factoryName="Django server">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:/Python27/python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <module name="iCollaborator" />
@@ -269,18 +563,25 @@
       <option name="port" value="8000" />
       <option name="host" value="" />
       <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
+      <option name="browserUrl" value="http://127.0.0.1:8000/login_editaccount" />
       <option name="runTestServer" value="false" />
       <option name="runNoReload" value="false" />
       <option name="useCustomRunCommand" value="false" />
       <option name="customRunCommand" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Django server.iCollaborator" />
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Query Language Console.Default" />
+      <item index="1" class="java.lang.String" itemvalue="Python.views" />
+      <item index="2" class="java.lang.String" itemvalue="Django server.iCollaborator" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SqlCodeAssistantSettings">
+    <option name="dbBrowserSelectedConnection" value="iCollaborator" />
+  </component>
   <component name="StructureViewFactory">
     <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
   </component>
@@ -305,31 +606,52 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="2cbb792c-c75a-4997-a994-4db3bfb1e99a" name="Default" comment="" />
+      <changelist id="d00f31dc-fdc0-4348-a33b-0ef421e8747b" name="Rejected commit: Default" comment="Complete normalhompage.html" />
+      <changelist id="8a7e7317-57bb-402b-9115-b3095219ea65" name="Failed commit: Default" comment="Complete main functions, EXCEPT Check in" />
+      <changelist id="8d0d8330-4ff7-4c73-8db5-0fa206ea74e9" name="Failed commit: Failed commit: Default" comment="Complete main functions, EXCEPT Check in" />
       <created>1347879215185</created>
-      <updated>1347879215185</updated>
+      <updated>1353289561359</updated>
     </task>
+    <task id="LOCAL-00001" summary="Create tables for database">
+      <created>1348556066026</created>
+      <updated>1348556066026</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Complete normalhompage.html">
+      <created>1350106367158</created>
+      <updated>1350106367158</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Complete All Design for Server Side">
+      <created>1350735591065</created>
+      <updated>1350735591065</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32954547" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.67045456" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21717991" sideWeight="0.67045456" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1871961" sideWeight="0.67045456" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21717991" sideWeight="0.67045456" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.67045456" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25121555" sideWeight="0.65097404" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39935064" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20988655" sideWeight="0.33441558" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.49756888" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34902596" sideWeight="0.7585089" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.49675852" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.49675852" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="DatabaseBrowser" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3298217" sideWeight="0.67045456" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Browser" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20907618" sideWeight="0.67045456" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -371,7 +693,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create tables for database" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete main functions, EXCEPT Check in" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -385,38 +707,113 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Create tables for database" />
+    <MESSAGE value="Complete normalhompage.html" />
+    <MESSAGE value="Complete All Design for Server Side" />
+    <MESSAGE value="Complete main functions, EXCEPT Check in" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/iCollaborator/urls.py">
+    <entry file="file://$PROJECT_DIR$/templates/login_question_new.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="9" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0" />
+        <state line="21" column="0" selection-start="739" selection-end="739" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iCollaborator/settings.py">
+    <entry file="file://C:/Python27/Lib/site-packages/django/forms/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="27" selection-start="1668" selection-end="1668" vertical-scroll-proportion="0.0">
+        <state line="140" column="55" selection-start="5352" selection-end="5352" vertical-scroll-proportion="0.4139785" />
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/django/contrib/auth/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="224" column="6" selection-start="7935" selection-end="7935" vertical-scroll-proportion="0.07005254" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login_question.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="20" selection-start="2239" selection-end="2239" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login_course_statistic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="12" selection-start="1168" selection-end="1168" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iCollaborator/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="122" selection-start="1504" selection-end="1504" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login_notification.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="27" selection-start="795" selection-end="795" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login_session_new.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="34" selection-start="591" selection-end="607" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/form.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="28" selection-start="874" selection-end="874" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login_question_statistic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="8" selection-start="1118" selection-end="1118" vertical-scroll-proportion="2.2083333">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0">
+        <state line="13" column="0" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#27#76#0" expanded="true" />
+            <element signature="e#0#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="37" selection-start="2770" selection-end="2770" vertical-scroll-proportion="1.2912371">
+        <state line="29" column="24" selection-start="959" selection-end="959" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login_session_statistic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="40" selection-start="783" selection-end="783" vertical-scroll-proportion="-11.333333">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="516" column="30" selection-start="19633" selection-end="19633" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#0#43#0" expanded="true" />
+            <element signature="e#26#85#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login_session.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="0" selection-start="1791" selection-end="1791" vertical-scroll-proportion="-9.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login_course.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="36" selection-start="838" selection-end="838" vertical-scroll-proportion="0.36144578">
+          <folding />
         </state>
       </provider>
     </entry>

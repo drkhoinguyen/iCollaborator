@@ -14,6 +14,9 @@
 
 {% block body %}
     <h3>Add Session:</h3>
+    {% if error %}
+        <p class="error">{{ error }}</p>
+    {% endif %}
     <form action="" method="post">{% csrf_token %}
         {{ add_session_form.as_p }}
         <input type="submit" value="Submit" />

@@ -18,6 +18,17 @@ urlpatterns = patterns('',
     # Uncomment the next line to enable the admin:
     url(r'^admin/', include(admin.site.urls)),
 
+    # url for students:
+    url(r'^signup_stu/(?P<device_id>\w+)/(?P<student_name>\w+)/$', 'main.views.signup_stu'),
+    url(r'^request_all_courses/(?P<device_id>\w+)/$', 'main.views.request_all_courses'),
+    url(r'^request_course_info/(?P<device_id>\w+)/(?P<course_id>\w+)/$', 'main.views.request_course_info'),
+    url(r'^request_nonce/(?P<device_id>\w+)/$', 'main.views.request_nonce_id'),
+    url(r'^check_in/(?P<course_id>\w+)/(?P<output>\S+)', 'main.views.check_in_request'),
+    url(r'^check_out/$', 'main.views.check_out'),
+    url(r'^request_question/(?P<device_id>\w+)/(?P<course_id>\w+)/(?P<session_id>\w+)/$', 'main.views.request_question'),
+    url(r'^answer_question/(?P<device_id>\w+)/(?P<course_id>\w+)/(?P<session_id>\w+)/(?P<question_id>\w+)/(?P<answer_id>\d+)/$',
+                                                        'main.views.answer_question'),
+
 
 
     # url for normal user:
@@ -25,12 +36,16 @@ urlpatterns = patterns('',
     url(r'^aboutus/$', normal_about_us.as_view()),
     url(r'^login/$', 'main.views.login_view'),
     url(r'^signup/$', 'main.views.signup_view'),
+    url(r'^success/$', 'main.views.success'),
+    url(r'^unsuccess/$', 'main.views.unsuccess'),
+    url(r'^test_connect/$', 'main.views.test_connect'),
 
     # url for login user:
     url(r'^login_homepage/$', 'main.views.homepage'),
     url(r'^login_aboutus/$', 'main.views.about_us'),
     url(r'^login_editaccount/$', 'main.views.edit_account'),
     url(r'^login_logout/$', 'main.views.logout_view'),
+    url(r'^login_success/$', 'main.views.login_success'),
 
     # url for notification
     url(r'^login_notification/$', 'main.views.notification'),

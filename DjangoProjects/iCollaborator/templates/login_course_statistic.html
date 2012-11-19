@@ -23,6 +23,9 @@
 
 {% block body %}
     <h3>Course Statistic:</h3>
+    {% if error %}
+    <p class="error">{{ error }}</p>
+    {% else %}
 
     <h4>Top 10 students miss:</h4>
     <ol>
@@ -44,5 +47,7 @@
             <li>{{ student }}</li>
         {% endfor %}
     </ol>
+
+    {% endif %}
 
 {% endblock body %}

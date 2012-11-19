@@ -49,6 +49,10 @@
 
 {% block body %}
     <h3>Question:</h3>
+    {% if error %}
+        <p class="error">{{ error }}</p>
+    {% endif %}
+
     <h5><a href="new_question">Add new question</a></h5>
     <h4>List of questions of this session:</h4>
 
@@ -61,7 +65,7 @@
             <th class="more">Show Stat</th>
             <th class="delete">Delete</th>
         </tr>
-        <form action="delete_question" id="delete_form">
+        <form action="delete_question/" id="delete_form" method="post">{% csrf_token %}
         {% for question in questions %}
             <tr>
                 <td class="id"><a href="{{ question.id }}/edit_question">{{ question.id }}</a></td>

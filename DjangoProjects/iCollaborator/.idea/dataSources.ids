@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><component name="dataSourceStorage">
+  <data-source source="LOCAL" name="iCollaborator" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="825fd6f7-3733-4e06-9e26-b278b6676e95">
+    <jdbc-driver>oracle.jdbc.driver.OracleDriver</jdbc-driver>
+    <jdbc-url>jdbc:oracle:thin:[user/password]@//128.125.163.168:1521/csci585</jdbc-url>
+    <user-name>team11</user-name>
+    <user-password>dfdedfc3dfc4dfc1dfc2dfc5dfc3</user-password>
+    <schema-pattern>*.TEAM11</schema-pattern>
+    <default-schemas>*.TEAM11</default-schemas>
+    <default-dialect>Oracle</default-dialect>
+    <libraries>
+      <library>
+        <url>file://$PROJECT_DIR$/../../../../Tut/ojdbc6.jar</url>
+      </library>
+    </libraries>
+  </data-source>
+</component>

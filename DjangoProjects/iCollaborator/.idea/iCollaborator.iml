@@ -1,5 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="PYTHON_MODULE" version="4">
+  <component name="DBNavigator.Module.ConnectionManager">
+    <connections>
+      <connection driver-library="D:\Windows 7 Files\Windows 7\Desktop\GIS\Tut\ojdbc6.jar" driver="oracle.jdbc.OracleDriver" url="jdbc:oracle:thin:[user/password]@//128.125.163.168:1521/csci585" active="true" os-authentication="false" id="4b25b618-e5ec-4cd5-b967-858225deea00" name="iCollaborator" description="iCollaborator" database-type="ORACLE" user="team11" password="tinkhoi">
+        <details>
+          <charset value="UTF-8" />
+          <auto-commit value="false" />
+          <environment-type value="" />
+        </details>
+        <object-filters>
+          <object-type-filter use-master-settings="true">
+            <object-type name="SCHEMA" enabled="true" />
+            <object-type name="USER" enabled="true" />
+            <object-type name="ROLE" enabled="true" />
+            <object-type name="PRIVILEGE" enabled="true" />
+            <object-type name="CHARSET" enabled="true" />
+            <object-type name="TABLE" enabled="true" />
+            <object-type name="VIEW" enabled="true" />
+            <object-type name="MATERIALIZED VIEW" enabled="true" />
+            <object-type name="NESTED TABLE" enabled="true" />
+            <object-type name="COLUMN" enabled="true" />
+            <object-type name="INDEX" enabled="true" />
+            <object-type name="CONSTRAINT" enabled="true" />
+            <object-type name="TRIGGER" enabled="true" />
+            <object-type name="SYNONYM" enabled="true" />
+            <object-type name="SEQUENCE" enabled="true" />
+            <object-type name="PROCEDURE" enabled="true" />
+            <object-type name="FUNCTION" enabled="true" />
+            <object-type name="PACKAGE" enabled="true" />
+            <object-type name="TYPE" enabled="true" />
+            <object-type name="TYPE ATTRIBUTE" enabled="true" />
+            <object-type name="ARGUMENT" enabled="true" />
+            <object-type name="DIMENSION" enabled="true" />
+            <object-type name="CLUSTER" enabled="true" />
+            <object-type name="DBLINK" enabled="true" />
+          </object-type-filter>
+          <object-name-filters />
+        </object-filters>
+      </connection>
+    </connections>
+  </component>
   <component name="FacetManager">
     <facet type="django" name="Django">
       <configuration>
