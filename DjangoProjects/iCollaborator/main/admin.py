@@ -1,10 +1,14 @@
 from django.contrib.admin.options import ModelAdmin
+from form import *
 import datetime
 
 __author__ = 'DUCMINHKHOI'
 from django.contrib.gis import admin as geo_admin
 from django.contrib import admin
 from models import *
+
+class CourseAdmin(ModelAdmin):
+    form = CourseForm2
 
 class SessionAdmin(ModelAdmin):
     list_display = ['id','title', 'time', 'classroom', 'course']
@@ -19,7 +23,7 @@ class QuestionAdmin(ModelAdmin):
 
 admin.site.register(Session, SessionAdmin)
 admin.site.register(Teacher)
-admin.site.register(Course)
+admin.site.register(Course, CourseAdmin)
 admin.site.register(Student)
 admin.site.register(Question, QuestionAdmin)
 admin.site.register(Notification)

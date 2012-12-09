@@ -229,8 +229,9 @@ def show_course_statistic(request, course_id):
                 if number < min1:
                     min1 = number
                     min_value = student
-            top_student_miss.append(min_value)
-            list_student.remove(min_value)
+            if min_value is not None:
+                top_student_miss.append(min_value)
+                list_student.remove(min_value)
 
         list_session = []
         for session in sessions:
@@ -241,12 +242,13 @@ def show_course_statistic(request, course_id):
             min1 = 100000
             min_value = None
             for session in list_session:
-                number_of_student = len(session.student_set.all())
+                number = len(session.student_set.all())
                 if number < min1:
                     min1 = number
                     min_value = session
-            top_session_student_miss.append(session)
-            list_session.remove(min_value)
+            if min_value is not None:
+                top_session_student_miss.append(min_value)
+                list_session.remove(min_value)
 
         student_miss_over = []
         for student in students:
@@ -388,7 +390,9 @@ def show_session_statistic(request, course_id, session_id):
             for question in list_question:
                 right_percent = 0.0
                 total_answer = question.result1 + question.result2 + question.result3 + question.result4
-                if question.right_answer == 1:
+                if total_answer is 0:
+                    right_percent = 0.0
+                elif question.right_answer == 1:
                     right_percent = question.result1 * 1.0 / total_answer * 100
                 elif question.right_answer == 2:
                     right_percent = question.result2 * 1.0 / total_answer * 100
@@ -408,11 +412,19 @@ def show_session_statistic(request, course_id, session_id):
                 if not i:
                     total_right_percent += right_percent
 
-            top_tough_question.append(min_value)
-            top_easy_question.append(max_value)
-            list_question.remove(min_value)
+            if min_value is not None:
+                top_tough_question.append(min_value)
 
-        avg_percent_right_answer = total_right_percent/num_question
+            if max_value is not None:
+                top_easy_question.append(max_value)
+                list_question.remove(min_value)
+                if max_value is not min_value:
+                    list_question.remove(max_value)
+
+        if num_question is not 0:
+            avg_percent_right_answer = total_right_percent/num_question
+        else:
+            avg_percent_right_answer = 0
 
         return render_to_response("login_session_statistic.html", {"course_id": course_id,
                                                                    "session_id": session_id,
@@ -436,7 +448,7 @@ def show_session_statistic(request, course_id, session_id):
 @login_required(login_url='/login')
 def question(request, course_id, session_id):
     #set functions of question here
-    question_list = Question.objects.all().order_by('-time')
+    question_list = Question.objects.filter(session__id = session_id).order_by('-time')
     paginator = Paginator(question_list, 25) # Show 25 contacts per page
 
     page = request.GET.get('page')

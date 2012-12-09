@@ -32,6 +32,28 @@ class CourseForm(ModelForm):
         model = Course
         exclude = ('objects')
 
+class CourseForm2(ModelForm):
+    students = forms.ModelMultipleChoiceField(queryset=Student.objects.all(), required=False)
+    teachers = forms.ModelMultipleChoiceField(queryset=Teacher.objects.all(), required=False)
+    class Meta:
+        model = Course
+        exclude = ('objects')
+
+    def save(self, commit=True):
+        instance = super(CourseForm2, self).save(commit=False)
+        instance.save()
+        for student in self.cleaned_data['students']:
+            student.courses.add(instance)
+            print("save student: " + student.name)
+            student.save()
+
+        for teacher in self.cleaned_data['teachers']:
+            teacher.courses.add(instance)
+            print("save student: " + teacher.name)
+            teacher.save()
+
+        return instance
+
 class QuestionForm(ModelForm):
 
     class Meta:
